@@ -87,7 +87,7 @@ http-response ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ script-path=https
 http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$) script-path=https://raw.githubusercontent.com/ASIQE/Scripting/master/revenuecat.js
 
 #Bright
-http-response ^https:\/\/engbright\.com\/app-portal\/apple\/receipt$ script-path=302 https://raw.githubusercontent.com/ASIQE/Scripting/master/Bright.rsp
+http-response ^https:\/\/engbright\.com\/app-portal\/apple\/receipt$ script-path=https://raw.githubusercontent.com/ASIQE/Scripting/master/Bright.rsp
 
 #lingokids
 http-response ^https:\/\/api\.lingokids\.com\/v1\/renovate_session$ script-path=https://raw.githubusercontent.com/ASIQE/Scripting/master/lingokids.vip.js
