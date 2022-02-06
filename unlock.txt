@@ -5,13 +5,13 @@
 spotify-proto = type=http-response,pattern=^https\:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/Spotify.js,script-update-interval=0
 
 
-lupingdashi-proto = type=http-response,pattern=^http?:\/\/luping\.cushuikeji\.cn\/api\/v1\.user\/info,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/RecordScreenProCrack.js
+lupingdashi-proto = type=http-response,pattern=^http?:\/\/luping\.cushuikeji\.cn\/api\/v1\.user\/info,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/RecordScreenProCrack.js,script-update-interval=0
 
-shandianxiazai-proto = type=http-response,pattern=^https?:\/\/bt\.flashdown365\.com\/resource2\?data\=\w{0,500}$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/ShanDianXiaZai.js
+shandianxiazai-proto = type=http-response,pattern=^https?:\/\/bt\.flashdown365\.com\/resource2\?data\=\w{0,500}$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/ShanDianXiaZai.js,script-update-interval=0
 
-baiduwangpan = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/BaiduCloud.js
+baiduwangpan = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/BaiduCloud.js,script-update-interval=0
 
-wps = type=http-response,pattern=^https://account.wps.*/api/users/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+wps = type=http-response,pattern=^https://account.wps.*/api/users/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,script-update-interval=0
 
 [Mitm]
 hostname =spclient.wg.spotify.com,luping.cushuikeji.c,bt.flashdown365.com,pan.baidu.com,account.wps.cn
